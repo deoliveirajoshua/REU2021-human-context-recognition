@@ -1,0 +1,235 @@
+2021-06-07 14:25:21,828 INFO    MainThread:20000 [internal.py:wandb_internal():64] W&B internal server running at pid: 20000
+2021-06-07 14:25:21,830 INFO    WriterThread:20000 [datastore.py:open_for_write():77] open: C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\run-2vaf575w.wandb
+2021-06-07 14:25:21,830 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: check_version
+2021-06-07 14:25:21,836 DEBUG   SenderThread:20000 [sender.py:send():117] send: header
+2021-06-07 14:25:21,837 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:25:21,837 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: check_version
+2021-06-07 14:25:21,839 DEBUG   Thread-8  :20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): pypi.org:443
+2021-06-07 14:25:21,962 DEBUG   Thread-8  :20000 [connectionpool.py:_make_request():452] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 57753
+2021-06-07 14:25:21,980 DEBUG   SenderThread:20000 [sender.py:send():117] send: run
+2021-06-07 14:25:21,998 DEBUG   SenderThread:20000 [util.py:is_cygwin_git():355] Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+2021-06-07 14:25:22,000 DEBUG   SenderThread:20000 [cmd.py:execute():817] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=C:\Users\jdeoliveira\REU2021-human-context-recognition, universal_newlines=False, shell=None, istream=None)
+2021-06-07 14:25:22,052 DEBUG   SenderThread:20000 [cmd.py:execute():817] Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\jdeoliveira\REU2021-human-context-recognition, universal_newlines=False, shell=None, istream=<valid stream>)
+2021-06-07 14:25:22,106 DEBUG   SenderThread:20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:25:22,233 DEBUG   SenderThread:20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-06-07 14:25:22,268 INFO    SenderThread:20000 [dir_watcher.py:__init__():165] watching files in: C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files
+2021-06-07 14:25:22,268 INFO    SenderThread:20000 [sender.py:_start_run_threads():593] run started: 2vaf575w with start time 1623090320
+2021-06-07 14:25:22,268 DEBUG   SenderThread:20000 [sender.py:send():117] send: summary
+2021-06-07 14:25:22,269 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: run_start
+2021-06-07 14:25:22,269 INFO    SenderThread:20000 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-06-07 14:25:24,448 DEBUG   Thread-11 :20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:25:25,322 DEBUG   Thread-11 :20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/jcdeoliveira/REU2021-human-context-recognition-ExtraSensory_data_models/2vaf575w/file_stream HTTP/1.1" 200 None
+2021-06-07 14:25:27,769 INFO    Thread-14 :20000 [dir_watcher.py:_on_file_created():213] file/dir created: C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files\output.log
+2021-06-07 14:25:27,770 INFO    Thread-14 :20000 [dir_watcher.py:_on_file_created():213] file/dir created: C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files\media
+2021-06-07 14:25:28,947 DEBUG   HandlerThread:20000 [tpu_cluster_resolver.py:<module>():35] Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-06-07 14:25:30,942 INFO    Thread-14 :20000 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files\output.log
+2021-06-07 14:25:33,807 DEBUG   HandlerThread:20000 [meta.py:__init__():34] meta init
+2021-06-07 14:25:33,807 DEBUG   HandlerThread:20000 [meta.py:__init__():48] meta init done
+2021-06-07 14:25:33,807 DEBUG   HandlerThread:20000 [meta.py:probe():190] probe
+2021-06-07 14:25:33,815 DEBUG   HandlerThread:20000 [meta.py:_setup_git():180] setup git
+2021-06-07 14:25:33,817 DEBUG   HandlerThread:20000 [cmd.py:execute():817] Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\jdeoliveira\REU2021-human-context-recognition, universal_newlines=False, shell=None, istream=<valid stream>)
+2021-06-07 14:25:33,874 DEBUG   HandlerThread:20000 [cmd.py:execute():817] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=C:\Users\jdeoliveira\REU2021-human-context-recognition, universal_newlines=False, shell=None, istream=None)
+2021-06-07 14:25:33,922 DEBUG   HandlerThread:20000 [meta.py:_setup_git():187] setup git done
+2021-06-07 14:25:33,922 DEBUG   HandlerThread:20000 [meta.py:_save_pip():52] save pip
+2021-06-07 14:25:33,923 DEBUG   HandlerThread:20000 [meta.py:_save_pip():66] save pip done
+2021-06-07 14:25:33,923 DEBUG   HandlerThread:20000 [meta.py:probe():231] probe done
+2021-06-07 14:25:33,926 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: status
+2021-06-07 14:25:33,926 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:25:33,926 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: status
+2021-06-07 14:25:33,929 DEBUG   SenderThread:20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:25:33,930 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: pause
+2021-06-07 14:25:33,930 INFO    HandlerThread:20000 [handler.py:handle_request_pause():229] stopping system metrics thread
+2021-06-07 14:25:34,032 DEBUG   SenderThread:20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-06-07 14:25:34,033 DEBUG   SenderThread:20000 [sender.py:send():117] send: files
+2021-06-07 14:25:34,034 INFO    SenderThread:20000 [sender.py:_save_file():682] saving file media\graph\graph_0_summary_36fd5466.graph.json with policy now
+2021-06-07 14:25:34,035 DEBUG   SenderThread:20000 [sender.py:send():117] send: summary
+2021-06-07 14:25:34,035 INFO    SenderThread:20000 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-06-07 14:25:34,036 DEBUG   SenderThread:20000 [sender.py:send():117] send: summary
+2021-06-07 14:25:34,036 INFO    SenderThread:20000 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-06-07 14:25:34,036 DEBUG   SenderThread:20000 [sender.py:send():117] send: summary
+2021-06-07 14:25:34,037 INFO    SenderThread:20000 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-06-07 14:25:34,037 DEBUG   SenderThread:20000 [sender.py:send():117] send: summary
+2021-06-07 14:25:34,039 INFO    SenderThread:20000 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-06-07 14:25:34,040 DEBUG   SenderThread:20000 [sender.py:send():117] send: summary
+2021-06-07 14:25:34,040 DEBUG   Thread-19 :20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:25:34,040 INFO    SenderThread:20000 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-06-07 14:25:34,040 DEBUG   SenderThread:20000 [sender.py:send():117] send: summary
+2021-06-07 14:25:34,041 INFO    SenderThread:20000 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-06-07 14:25:34,041 DEBUG   SenderThread:20000 [sender.py:send():117] send: files
+2021-06-07 14:25:34,041 INFO    SenderThread:20000 [sender.py:_save_file():682] saving file wandb-metadata.json with policy now
+2021-06-07 14:25:34,042 DEBUG   SenderThread:20000 [sender.py:send():117] send: stats
+2021-06-07 14:25:34,045 DEBUG   Thread-20 :20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:25:34,150 DEBUG   Thread-19 :20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-06-07 14:25:34,154 DEBUG   Thread-19 :20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-06-07 14:25:34,159 DEBUG   Thread-20 :20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-06-07 14:25:34,163 DEBUG   Thread-20 :20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-06-07 14:25:34,188 INFO    Thread-14 :20000 [dir_watcher.py:_on_file_created():213] file/dir created: C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files\wandb-metadata.json
+2021-06-07 14:25:34,188 INFO    Thread-14 :20000 [dir_watcher.py:_on_file_created():213] file/dir created: C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files\requirements.txt
+2021-06-07 14:25:34,351 DEBUG   Thread-11 :20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/jcdeoliveira/REU2021-human-context-recognition-ExtraSensory_data_models/2vaf575w/file_stream HTTP/1.1" 200 None
+2021-06-07 14:25:34,426 DEBUG   Thread-20 :20000 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/jcdeoliveira/REU2021-human-context-recognition-ExtraSensory_data_models/2vaf575w/wandb-metadata.json?Expires=1623176733&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=rG8qCokRvOkX6P5enw1HRu1N%2BD8vAQd3HTDTZqr0jzC98HXTPqdVzWqI6fBugSjWEnyReOVant35JUtxqaNr5ogy5gKqIwRTCnE1LaD8FkOLtL4F2tHO0zeQqgI2EnCLpiJKGoYYPlCjSjHAbpLlPEmh%2BmopDfQ15hJgeD8nofWkb8PHbR2lsW7HF1VYnM3RnaFOSmUgAMj9EUg9UHNi1Gl708p5mhFigNIeKkhbZ66xgbti0ukIMO13s4IGvg4zSj9QsJymAew%2FKFayc06c64wiFG6%2FN3A20vYKIj8zlYyLxq86yVSta78h9VXzp3cFoV22oBMzDBGtBAYR55sEhA%3D%3D HTTP/1.1" 200 0
+2021-06-07 14:25:34,428 DEBUG   Thread-19 :20000 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/jcdeoliveira/REU2021-human-context-recognition-ExtraSensory_data_models/2vaf575w/media/graph/graph_0_summary_36fd5466.graph.json?Expires=1623176733&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=DXcLOhXAa5f3FAlkutcysWZFFZdS8lqKcYa8RLSywDuLIQRooBZEj8N6pztDpHqAiFhd4AX0%2FrtGSREDM%2Fi%2FjiDqC4qu0mNvh7LdDJ9CkbaUWc%2FYm73CmBOdh589y0E%2BHTdlLEcSsSF6WY%2FkVO5l%2BMHcjxhXZVnDj5ai%2Fz93RTBkmAwcD96qqq%2BYMBDEebhnUinF82ZUjSUrOMlghiIdKgaDajlMuCFJyG66lfhaVeORWMpLrEf7zzNGlDjV%2Bi1787UinJQAz318Ek9jZm5xqi8e5krkN2B3EBHkLMYzckTQ3roysgp7efWsG36%2BhPMIkI5L%2FlJ2Zf20VtR4ZpZgZQ%3D%3D HTTP/1.1" 200 0
+2021-06-07 14:25:34,428 INFO    Thread-20 :20000 [upload_job.py:push():133] Uploaded file C:\Users\jdeoliveira\AppData\Local\Temp\tmp1hteu3tdwandb\2ibmhdfn-wandb-metadata.json
+2021-06-07 14:25:34,429 INFO    Thread-19 :20000 [upload_job.py:push():133] Uploaded file C:\Users\jdeoliveira\AppData\Local\Temp\tmp1hteu3tdwandb\1fp21qmp-media/graph/graph_0_summary_36fd5466.graph.json
+2021-06-07 14:25:36,463 DEBUG   Thread-11 :20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/jcdeoliveira/REU2021-human-context-recognition-ExtraSensory_data_models/2vaf575w/file_stream HTTP/1.1" 200 None
+2021-06-07 14:25:49,036 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: status
+2021-06-07 14:25:49,037 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:25:49,037 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: status
+2021-06-07 14:25:49,041 DEBUG   SenderThread:20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:25:49,145 DEBUG   SenderThread:20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-06-07 14:26:04,165 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: status
+2021-06-07 14:26:04,166 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:26:04,166 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: status
+2021-06-07 14:26:04,173 DEBUG   SenderThread:20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:26:04,292 DEBUG   SenderThread:20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-06-07 14:26:06,677 DEBUG   Thread-11 :20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/jcdeoliveira/REU2021-human-context-recognition-ExtraSensory_data_models/2vaf575w/file_stream HTTP/1.1" 200 None
+2021-06-07 14:26:19,314 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: status
+2021-06-07 14:26:19,314 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:26:19,314 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: status
+2021-06-07 14:26:19,316 DEBUG   SenderThread:20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:26:19,412 DEBUG   SenderThread:20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-06-07 14:26:34,427 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: status
+2021-06-07 14:26:34,427 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:26:34,428 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: status
+2021-06-07 14:26:34,434 DEBUG   SenderThread:20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:26:34,547 DEBUG   SenderThread:20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-06-07 14:26:40,836 DEBUG   Thread-11 :20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/jcdeoliveira/REU2021-human-context-recognition-ExtraSensory_data_models/2vaf575w/file_stream HTTP/1.1" 200 None
+2021-06-07 14:26:49,553 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: status
+2021-06-07 14:26:49,553 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:26:49,553 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: status
+2021-06-07 14:26:49,555 DEBUG   SenderThread:20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:26:49,650 DEBUG   SenderThread:20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-06-07 14:27:04,665 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: status
+2021-06-07 14:27:04,665 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:27:04,665 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: status
+2021-06-07 14:27:04,669 DEBUG   SenderThread:20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:27:04,774 DEBUG   SenderThread:20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-06-07 14:27:10,932 DEBUG   Thread-11 :20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/jcdeoliveira/REU2021-human-context-recognition-ExtraSensory_data_models/2vaf575w/file_stream HTTP/1.1" 200 None
+2021-06-07 14:27:19,783 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: status
+2021-06-07 14:27:19,783 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:27:19,784 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: status
+2021-06-07 14:27:19,789 DEBUG   SenderThread:20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:27:19,905 DEBUG   SenderThread:20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-06-07 14:27:34,921 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: status
+2021-06-07 14:27:34,922 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:27:34,923 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: status
+2021-06-07 14:27:34,928 DEBUG   SenderThread:20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:27:35,050 DEBUG   SenderThread:20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-06-07 14:27:41,053 DEBUG   Thread-11 :20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/jcdeoliveira/REU2021-human-context-recognition-ExtraSensory_data_models/2vaf575w/file_stream HTTP/1.1" 200 None
+2021-06-07 14:27:46,829 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: resume
+2021-06-07 14:27:46,830 INFO    HandlerThread:20000 [handler.py:handle_request_resume():224] starting system metrics thread
+2021-06-07 14:27:46,839 DEBUG   SenderThread:20000 [sender.py:send():117] send: history
+2021-06-07 14:27:46,841 DEBUG   SenderThread:20000 [sender.py:send():117] send: summary
+2021-06-07 14:27:46,860 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: poll_exit
+2021-06-07 14:27:46,860 INFO    SenderThread:20000 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-06-07 14:27:46,860 DEBUG   SenderThread:20000 [sender.py:send():117] send: telemetry
+2021-06-07 14:27:46,865 DEBUG   SenderThread:20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:27:47,005 DEBUG   SenderThread:20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-06-07 14:27:47,019 DEBUG   SenderThread:20000 [sender.py:send():117] send: exit
+2021-06-07 14:27:47,019 INFO    SenderThread:20000 [sender.py:send_exit():195] handling exit code: 0
+2021-06-07 14:27:47,019 INFO    SenderThread:20000 [sender.py:send_exit():203] send defer
+2021-06-07 14:27:47,020 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:27:47,021 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: poll_exit
+2021-06-07 14:27:47,022 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: defer
+2021-06-07 14:27:47,022 INFO    HandlerThread:20000 [handler.py:handle_request_defer():69] handle defer: 0
+2021-06-07 14:27:47,023 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:27:47,023 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: defer
+2021-06-07 14:27:47,023 INFO    SenderThread:20000 [sender.py:send_request_defer():212] handle sender defer: 0
+2021-06-07 14:27:47,023 INFO    SenderThread:20000 [sender.py:send_request_defer():248] send defer: 1
+2021-06-07 14:27:47,024 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: defer
+2021-06-07 14:27:47,025 INFO    HandlerThread:20000 [handler.py:handle_request_defer():69] handle defer: 1
+2021-06-07 14:27:47,139 DEBUG   Thread-11 :20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/jcdeoliveira/REU2021-human-context-recognition-ExtraSensory_data_models/2vaf575w/file_stream HTTP/1.1" 200 None
+2021-06-07 14:27:47,154 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:27:47,154 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: defer
+2021-06-07 14:27:47,154 INFO    SenderThread:20000 [sender.py:send_request_defer():212] handle sender defer: 1
+2021-06-07 14:27:47,154 INFO    SenderThread:20000 [sender.py:send_request_defer():248] send defer: 2
+2021-06-07 14:27:47,155 DEBUG   SenderThread:20000 [sender.py:send():117] send: stats
+2021-06-07 14:27:47,155 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: defer
+2021-06-07 14:27:47,156 INFO    HandlerThread:20000 [handler.py:handle_request_defer():69] handle defer: 2
+2021-06-07 14:27:47,156 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:27:47,156 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: defer
+2021-06-07 14:27:47,156 INFO    SenderThread:20000 [sender.py:send_request_defer():212] handle sender defer: 2
+2021-06-07 14:27:47,156 INFO    SenderThread:20000 [sender.py:send_request_defer():248] send defer: 3
+2021-06-07 14:27:47,156 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: defer
+2021-06-07 14:27:47,156 INFO    HandlerThread:20000 [handler.py:handle_request_defer():69] handle defer: 3
+2021-06-07 14:27:47,157 DEBUG   SenderThread:20000 [sender.py:send():117] send: summary
+2021-06-07 14:27:47,159 INFO    SenderThread:20000 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-06-07 14:27:47,159 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:27:47,159 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: defer
+2021-06-07 14:27:47,159 INFO    SenderThread:20000 [sender.py:send_request_defer():212] handle sender defer: 3
+2021-06-07 14:27:47,159 INFO    SenderThread:20000 [sender.py:send_request_defer():248] send defer: 4
+2021-06-07 14:27:47,160 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: defer
+2021-06-07 14:27:47,160 INFO    HandlerThread:20000 [handler.py:handle_request_defer():69] handle defer: 4
+2021-06-07 14:27:47,160 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:27:47,160 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: defer
+2021-06-07 14:27:47,160 INFO    SenderThread:20000 [sender.py:send_request_defer():212] handle sender defer: 4
+2021-06-07 14:27:47,160 INFO    SenderThread:20000 [dir_watcher.py:finish():279] shutting down directory watcher
+2021-06-07 14:27:47,285 INFO    Thread-14 :20000 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files\config.yaml
+2021-06-07 14:27:47,290 INFO    SenderThread:20000 [dir_watcher.py:finish():309] scan: C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files
+2021-06-07 14:27:47,291 INFO    SenderThread:20000 [dir_watcher.py:finish():315] scan save: C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files\config.yaml config.yaml
+2021-06-07 14:27:47,293 INFO    SenderThread:20000 [dir_watcher.py:finish():315] scan save: C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files\output.log output.log
+2021-06-07 14:27:47,295 INFO    SenderThread:20000 [dir_watcher.py:finish():315] scan save: C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files\requirements.txt requirements.txt
+2021-06-07 14:27:47,314 INFO    SenderThread:20000 [dir_watcher.py:finish():315] scan save: C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files\wandb-metadata.json wandb-metadata.json
+2021-06-07 14:27:47,316 DEBUG   Thread-22 :20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:27:47,316 INFO    SenderThread:20000 [dir_watcher.py:finish():315] scan save: C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files\wandb-summary.json wandb-summary.json
+2021-06-07 14:27:47,318 DEBUG   Thread-23 :20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:27:47,394 DEBUG   Thread-24 :20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:27:47,395 INFO    SenderThread:20000 [dir_watcher.py:finish():315] scan save: C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files\media\graph\graph_0_summary_36fd5466.graph.json media\graph\graph_0_summary_36fd5466.graph.json
+2021-06-07 14:27:47,398 INFO    SenderThread:20000 [sender.py:send_request_defer():248] send defer: 5
+2021-06-07 14:27:47,398 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: defer
+2021-06-07 14:27:47,399 DEBUG   Thread-25 :20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-06-07 14:27:47,399 INFO    HandlerThread:20000 [handler.py:handle_request_defer():69] handle defer: 5
+2021-06-07 14:27:47,399 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:27:47,399 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: defer
+2021-06-07 14:27:47,399 INFO    SenderThread:20000 [sender.py:send_request_defer():212] handle sender defer: 5
+2021-06-07 14:27:47,399 INFO    SenderThread:20000 [file_pusher.py:finish():174] shutting down file pusher
+2021-06-07 14:27:47,399 INFO    SenderThread:20000 [sender.py:send_request_defer():248] send defer: 6
+2021-06-07 14:27:47,400 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: defer
+2021-06-07 14:27:47,400 INFO    HandlerThread:20000 [handler.py:handle_request_defer():69] handle defer: 6
+2021-06-07 14:27:47,400 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:27:47,400 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: defer
+2021-06-07 14:27:47,400 INFO    SenderThread:20000 [sender.py:send_request_defer():212] handle sender defer: 6
+2021-06-07 14:27:47,506 DEBUG   Thread-22 :20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-06-07 14:27:47,508 DEBUG   Thread-23 :20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-06-07 14:27:47,515 DEBUG   Thread-24 :20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-06-07 14:27:47,521 DEBUG   Thread-25 :20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-06-07 14:27:47,548 DEBUG   Thread-22 :20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-06-07 14:27:47,552 DEBUG   Thread-23 :20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-06-07 14:27:47,560 DEBUG   Thread-24 :20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-06-07 14:27:47,565 DEBUG   Thread-25 :20000 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-06-07 14:27:47,701 DEBUG   Thread-11 :20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/jcdeoliveira/REU2021-human-context-recognition-ExtraSensory_data_models/2vaf575w/file_stream HTTP/1.1" 200 None
+2021-06-07 14:27:47,773 DEBUG   Thread-11 :20000 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/jcdeoliveira/REU2021-human-context-recognition-ExtraSensory_data_models/2vaf575w/file_stream HTTP/1.1" 200 None
+2021-06-07 14:27:47,775 INFO    SenderThread:20000 [sender.py:send_request_defer():248] send defer: 7
+2021-06-07 14:27:47,776 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: defer
+2021-06-07 14:27:47,776 INFO    HandlerThread:20000 [handler.py:handle_request_defer():69] handle defer: 7
+2021-06-07 14:27:47,776 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:27:47,776 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: defer
+2021-06-07 14:27:47,776 INFO    SenderThread:20000 [sender.py:send_request_defer():212] handle sender defer: 7
+2021-06-07 14:27:47,776 INFO    SenderThread:20000 [sender.py:send_request_defer():248] send defer: 8
+2021-06-07 14:27:47,777 DEBUG   SenderThread:20000 [sender.py:send():117] send: final
+2021-06-07 14:27:47,778 DEBUG   SenderThread:20000 [sender.py:send():117] send: footer
+2021-06-07 14:27:47,778 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: defer
+2021-06-07 14:27:47,778 INFO    HandlerThread:20000 [handler.py:handle_request_defer():69] handle defer: 8
+2021-06-07 14:27:47,778 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:27:47,778 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: defer
+2021-06-07 14:27:47,778 INFO    SenderThread:20000 [sender.py:send_request_defer():212] handle sender defer: 8
+2021-06-07 14:27:47,811 DEBUG   Thread-24 :20000 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/jcdeoliveira/REU2021-human-context-recognition-ExtraSensory_data_models/2vaf575w/requirements.txt?Expires=1623176867&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=h5BFs54tob%2FRAEf%2FvDLpMiB69Yw9rITFht%2FQ6fHLyuIiz8L2JhyrlRRozrlACNInq6l2OKmMHmmJJrU7XSTunwuT8VAp0qYaEiMAVdAe7T6GgJUoW4tfwoRmX6MjYEErHByFGzT0xDkytos%2FexY8upgVDATY51CMCJid5JZcw7p%2B0KMVIub2ljcJ8USYxD%2BcmrrU02Klyg8GgLivM0x30J%2BULFAxW9R8NPiunN2DbnWjfK1qXEpomqgRfXhI85qmBv6mc8TnBIp2ISau%2FG313CVAP76ZDgR2wHxMI8Y2ok%2FqLuI9FJeFuSrrka3npUe7rU27OWnpTt%2FoqHyelhLcjA%3D%3D HTTP/1.1" 200 0
+2021-06-07 14:27:47,816 DEBUG   Thread-23 :20000 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/jcdeoliveira/REU2021-human-context-recognition-ExtraSensory_data_models/2vaf575w/output.log?Expires=1623176867&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=N%2FNyU5YqFHr5YItc6Y1vvV3dw5jNZWj1pyC2mcVFF7p%2FKBd9hJ9MEyZu8A9LyH%2FZ2LYZHYDss%2BKrwT8p794BaI91tAf%2BH0IezKzaEn65lhiJZu7CRZ01Fz%2F39ZjfipI8qiU%2BK5CKoe85NypIf2ZyxpA5%2FzPErSEHEima%2BFnFtURkuwhjmhHUU%2BBs2WQrX9rRbiLmkmkl%2BsX888wfHiroHfAELcJi6fFwFUkEcHjdc0T3KinUqcJLd6zA%2BWETj%2Brg%2FiLvDTXsI9M321PzpV%2FALeN%2FpNzU8c7pNumYiqyARECqX3CZxLzXmMhVFgxsaLb7WVHp7fb8Sbrot1TvraQsRg%3D%3D HTTP/1.1" 200 0
+2021-06-07 14:27:47,817 INFO    Thread-24 :20000 [upload_job.py:push():133] Uploaded file C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files\requirements.txt
+2021-06-07 14:27:47,820 INFO    Thread-23 :20000 [upload_job.py:push():133] Uploaded file C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files\output.log
+2021-06-07 14:27:47,829 DEBUG   Thread-22 :20000 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/jcdeoliveira/REU2021-human-context-recognition-ExtraSensory_data_models/2vaf575w/config.yaml?Expires=1623176867&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=ePmDaQ8nM3WLDxpsRElR0HnBYU%2B3nQRQ2qnkEKMrkCQ4786MiGQeZ0w14At7GNxhQ9zdvyxDnDJozExq0x9L0GP5di2gkPbLWL62HNyJM6IU3lyhB1QSl0aj4ihr5cYLl%2BBDgs1KVXCLLlatHZPsNIEmEvOR9Yyi5b1%2BjJVkTGWQYRINgAFCWx%2FHx%2BSvsaw2CWdiL2gtiu9YbD%2FHajPvkyzos9x0VzIHE5RLqLFgQ1gudgv1zRvUDOJv7Swi%2FWYPCvpKhnCgB721dulPo7yc6oaLnM9KoqwxxEPyvLZo092K1B7bARm38mTPWF7OhXJKauSdxTBgFnZzZ8he3L0R2Q%3D%3D HTTP/1.1" 200 0
+2021-06-07 14:27:47,831 INFO    Thread-22 :20000 [upload_job.py:push():133] Uploaded file C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files\config.yaml
+2021-06-07 14:27:47,832 DEBUG   Thread-25 :20000 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/jcdeoliveira/REU2021-human-context-recognition-ExtraSensory_data_models/2vaf575w/wandb-summary.json?Expires=1623176867&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=CuGt4SB92WSUu4hUfTYIaSLLZP1OY4GEDsuqnzLatBNowe3c%2B6T8wMd%2FNFKgZwt7BWdMax8JAdKngHDJ6FQ0e2TEvjLrE%2F%2BwQ37TjgvlMNvCcB11C5c8ViKzn0LDC2wd%2FCUN%2Ba5JxxokfyiANmssJCKXLux8P7H%2Bjf%2BfCkhDEvVMHHl77YSaVqSRL0Y2xyM1C6mGhH5z7haRJgIkqAv0kJyDu1SZirMRqQCRqKUDcwq7Ra6vGYzRWtuFTM3LapQTAafOa%2Fm9zpQNZZ5K6ZLI72InYelhG93ZbNwxr9vcD2T5brAWkpu27IKj4Pl04qsDYRj%2BGzw5HLeYCygK293l%2Fw%3D%3D HTTP/1.1" 200 0
+2021-06-07 14:27:47,834 INFO    Thread-25 :20000 [upload_job.py:push():133] Uploaded file C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\files\wandb-summary.json
+2021-06-07 14:27:49,032 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: poll_exit
+2021-06-07 14:27:49,033 DEBUG   SenderThread:20000 [sender.py:send():117] send: request
+2021-06-07 14:27:49,033 DEBUG   SenderThread:20000 [sender.py:send_request():126] send_request: poll_exit
+2021-06-07 14:27:49,034 INFO    SenderThread:20000 [file_pusher.py:join():179] waiting for file pusher
+2021-06-07 14:27:49,041 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: get_summary
+2021-06-07 14:27:49,047 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: sampled_history
+2021-06-07 14:27:49,048 DEBUG   HandlerThread:20000 [handler.py:handle_request():55] handle_request: shutdown
+2021-06-07 14:27:49,048 INFO    HandlerThread:20000 [handler.py:finish():274] shutting down handler
+2021-06-07 14:27:49,799 INFO    WriterThread:20000 [datastore.py:close():258] close: C:\Users\jdeoliveira\REU2021-human-context-recognition\ExtraSensory_data\models\wandb\run-20210607_142520-2vaf575w\run-2vaf575w.wandb
+2021-06-07 14:27:50,046 INFO    SenderThread:20000 [sender.py:finish():756] shutting down sender
+2021-06-07 14:27:50,046 INFO    SenderThread:20000 [file_pusher.py:finish():174] shutting down file pusher
+2021-06-07 14:27:50,047 INFO    SenderThread:20000 [file_pusher.py:join():179] waiting for file pusher
+2021-06-07 14:27:50,052 INFO    MainThread:20000 [internal.py:handle_exit():139] Internal process exited

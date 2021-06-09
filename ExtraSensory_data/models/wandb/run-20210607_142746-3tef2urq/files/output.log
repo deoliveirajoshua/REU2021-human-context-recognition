@@ -1,0 +1,321 @@
+Epoch: 1 | Last Batch Loss: 0.25028881430625916
+Epoch: 2 | Last Batch Loss: 0.24956631660461426
+Epoch: 3 | Last Batch Loss: 0.2505718469619751
+Epoch: 4 | Last Batch Loss: 0.25291940569877625
+Epoch: 5 | Last Batch Loss: 0.2521980404853821
+Epoch: 6 | Last Batch Loss: 0.2504602372646332
+Epoch: 7 | Last Batch Loss: 0.24985580146312714
+Epoch: 8 | Last Batch Loss: 0.24899904429912567
+Epoch: 9 | Last Batch Loss: 0.25008440017700195
+Epoch: 10 | Last Batch Loss: 0.25094684958457947
+Epoch: 11 | Last Batch Loss: 0.25120121240615845
+Epoch: 1 | Last Batch Loss: 0.22316327691078186
+Epoch: 2 | Last Batch Loss: 0.21961379051208496
+Epoch: 3 | Last Batch Loss: 0.21741756796836853
+Epoch: 4 | Last Batch Loss: 0.20936299860477448
+Epoch: 5 | Last Batch Loss: 0.24233460426330566
+Epoch: 6 | Last Batch Loss: 0.22316616773605347
+Epoch: 7 | Last Batch Loss: 0.2010599672794342
+Epoch: 8 | Last Batch Loss: 0.22526909410953522
+Epoch: 9 | Last Batch Loss: 0.20630715787410736
+Epoch: 10 | Last Batch Loss: 0.20079030096530914
+Epoch: 11 | Last Batch Loss: 0.2072559893131256
+Epoch: 12 | Last Batch Loss: 0.19659827649593353
+Epoch: 13 | Last Batch Loss: 0.2181137204170227
+Epoch: 14 | Last Batch Loss: 0.20990444719791412
+Epoch: 15 | Last Batch Loss: 0.20178015530109406
+Epoch: 16 | Last Batch Loss: 0.2150849550962448
+Epoch: 17 | Last Batch Loss: 0.20462365448474884
+Epoch: 18 | Last Batch Loss: 0.2035384327173233
+Epoch: 19 | Last Batch Loss: 0.22404442727565765
+Epoch: 20 | Last Batch Loss: 0.20649787783622742
+Epoch: 21 | Last Batch Loss: 0.20435142517089844
+Epoch: 22 | Last Batch Loss: 0.21981225907802582
+Epoch: 23 | Last Batch Loss: 0.1978316456079483
+Epoch: 24 | Last Batch Loss: 0.2146182358264923
+Epoch: 25 | Last Batch Loss: 0.1918671578168869
+Epoch: 26 | Last Batch Loss: 0.20411068201065063
+Epoch: 27 | Last Batch Loss: 0.20172730088233948
+Epoch: 28 | Last Batch Loss: 0.2072303742170334
+Epoch: 29 | Last Batch Loss: 0.22413888573646545
+Epoch: 1 | Last Batch Loss: 0.20868916809558868
+Epoch: 2 | Last Batch Loss: 0.21686476469039917
+Epoch: 3 | Last Batch Loss: 0.19861698150634766
+Epoch: 4 | Last Batch Loss: 0.2110074758529663
+Epoch: 5 | Last Batch Loss: 0.17568723857402802
+Epoch: 6 | Last Batch Loss: 0.20379376411437988
+Epoch: 7 | Last Batch Loss: 0.1821773201227188
+Epoch: 8 | Last Batch Loss: 0.17469702661037445
+Epoch: 9 | Last Batch Loss: 0.1977107971906662
+Epoch: 10 | Last Batch Loss: 0.20758892595767975
+Epoch: 11 | Last Batch Loss: 0.19464270770549774
+Epoch: 12 | Last Batch Loss: 0.1785689741373062
+Epoch: 13 | Last Batch Loss: 0.20043691992759705
+Epoch: 14 | Last Batch Loss: 0.20609892904758453
+Epoch: 15 | Last Batch Loss: 0.21387405693531036
+Epoch: 16 | Last Batch Loss: 0.16993683576583862
+Epoch: 17 | Last Batch Loss: 0.1787828654050827
+Epoch: 18 | Last Batch Loss: 0.20105935633182526
+Epoch: 19 | Last Batch Loss: 0.18379609286785126
+Epoch: 20 | Last Batch Loss: 0.1798529177904129
+Classification Accuracy: 69.50
+Precision: 0.60
+Recall: 0.46
+F-1 Score: 0.52
+Training Volume: 264142
+Class Ratio for Training: 1.7673626753554255
+Testing Volume: 113204
+Class Ratio for Testing: 1.7673503312391523
+Epoch: 1 | Last Batch Loss: 0.22942908108234406
+Epoch: 2 | Last Batch Loss: 0.23022931814193726
+Epoch: 3 | Last Batch Loss: 0.2381214052438736
+Epoch: 4 | Last Batch Loss: 0.22453542053699493
+Epoch: 5 | Last Batch Loss: 0.23775063455104828
+Epoch: 6 | Last Batch Loss: 0.2378847599029541
+Epoch: 7 | Last Batch Loss: 0.22587136924266815
+Epoch: 8 | Last Batch Loss: 0.2392582893371582
+Epoch: 9 | Last Batch Loss: 0.22606971859931946
+Epoch: 10 | Last Batch Loss: 0.20842838287353516
+Epoch: 11 | Last Batch Loss: 0.22218383848667145
+Epoch: 12 | Last Batch Loss: 0.22219757735729218
+Epoch: 13 | Last Batch Loss: 0.2380492240190506
+Epoch: 14 | Last Batch Loss: 0.21441921591758728
+Epoch: 15 | Last Batch Loss: 0.2235211580991745
+Epoch: 16 | Last Batch Loss: 0.23998910188674927
+Epoch: 17 | Last Batch Loss: 0.21747605502605438
+Epoch: 18 | Last Batch Loss: 0.20580366253852844
+Epoch: 19 | Last Batch Loss: 0.21661680936813354
+Epoch: 20 | Last Batch Loss: 0.22061268985271454
+Training Volume: 264142
+Class Ratio for Training: 1.7673626753554255
+Testing Volume: 113204
+Class Ratio for Testing: 1.7673503312391523
+Epoch: 1 | Last Batch Loss: 0.20891988277435303
+Epoch: 2 | Last Batch Loss: 0.20371994376182556
+Epoch: 3 | Last Batch Loss: 0.20452658832073212
+Epoch: 4 | Last Batch Loss: 0.19804322719573975
+Epoch: 5 | Last Batch Loss: 0.18061098456382751
+Epoch: 6 | Last Batch Loss: 0.201598659157753
+Epoch: 7 | Last Batch Loss: 0.21247170865535736
+Epoch: 8 | Last Batch Loss: 0.19451160728931427
+Epoch: 9 | Last Batch Loss: 0.18124321103096008
+Epoch: 10 | Last Batch Loss: 0.19246359169483185
+Epoch: 11 | Last Batch Loss: 0.22154416143894196
+Epoch: 12 | Last Batch Loss: 0.19669216871261597
+Epoch: 13 | Last Batch Loss: 0.21190039813518524
+Epoch: 14 | Last Batch Loss: 0.1979503333568573
+Epoch: 15 | Last Batch Loss: 0.1906919628381729
+Epoch: 16 | Last Batch Loss: 0.19529296457767487
+Epoch: 17 | Last Batch Loss: 0.18471390008926392
+Epoch: 18 | Last Batch Loss: 0.21622596681118011
+Epoch: 19 | Last Batch Loss: 0.17426225543022156
+Epoch: 20 | Last Batch Loss: 0.19538545608520508
+Epoch: 21 | Last Batch Loss: 0.17627431452274323
+Epoch: 22 | Last Batch Loss: 0.1937682330608368
+Epoch: 23 | Last Batch Loss: 0.18175630271434784
+Epoch: 24 | Last Batch Loss: 0.1948784738779068
+Epoch: 25 | Last Batch Loss: 0.19018632173538208
+Epoch: 26 | Last Batch Loss: 0.19085678458213806
+Epoch: 27 | Last Batch Loss: 0.17829535901546478
+Epoch: 28 | Last Batch Loss: 0.22500932216644287
+Epoch: 29 | Last Batch Loss: 0.22576801478862762
+Epoch: 30 | Last Batch Loss: 0.19835855066776276
+Epoch: 31 | Last Batch Loss: 0.16509030759334564
+Epoch: 32 | Last Batch Loss: 0.17295604944229126
+Epoch: 33 | Last Batch Loss: 0.19470496475696564
+Epoch: 34 | Last Batch Loss: 0.20083311200141907
+Epoch: 35 | Last Batch Loss: 0.19602325558662415
+Epoch: 36 | Last Batch Loss: 0.20558969676494598
+Epoch: 37 | Last Batch Loss: 0.20451359450817108
+Epoch: 38 | Last Batch Loss: 0.1728639304637909
+Epoch: 39 | Last Batch Loss: 0.19288283586502075
+Epoch: 40 | Last Batch Loss: 0.18312042951583862
+Epoch: 41 | Last Batch Loss: 0.2163664847612381
+Epoch: 42 | Last Batch Loss: 0.17078663408756256
+Epoch: 43 | Last Batch Loss: 0.20301096141338348
+Epoch: 44 | Last Batch Loss: 0.17082877457141876
+Training Volume: 264142
+Class Ratio for Training: 1.7673626753554255
+Testing Volume: 113204
+Class Ratio for Testing: 1.7673503312391523
+Epoch: 1 | Last Batch Loss: 0.19876538217067719
+Epoch: 2 | Last Batch Loss: 0.19562381505966187
+Epoch: 3 | Last Batch Loss: 0.19141052663326263
+Epoch: 4 | Last Batch Loss: 0.18755559623241425
+Epoch: 5 | Last Batch Loss: 0.19179491698741913
+Epoch: 6 | Last Batch Loss: 0.19233493506908417
+Epoch: 7 | Last Batch Loss: 0.18942610919475555
+Epoch: 8 | Last Batch Loss: 0.19762852787971497
+Epoch: 9 | Last Batch Loss: 0.19096443057060242
+Epoch: 10 | Last Batch Loss: 0.19500918686389923
+Epoch: 11 | Last Batch Loss: 0.20355698466300964
+Epoch: 12 | Last Batch Loss: 0.1988661289215088
+Epoch: 13 | Last Batch Loss: 0.18899688124656677
+Epoch: 14 | Last Batch Loss: 0.18791742622852325
+Epoch: 15 | Last Batch Loss: 0.1990339308977127
+Epoch: 16 | Last Batch Loss: 0.1940593272447586
+Epoch: 17 | Last Batch Loss: 0.18251317739486694
+Epoch: 18 | Last Batch Loss: 0.1899297833442688
+Epoch: 19 | Last Batch Loss: 0.18076162040233612
+Epoch: 20 | Last Batch Loss: 0.18939197063446045
+Epoch: 21 | Last Batch Loss: 0.18829578161239624
+Epoch: 22 | Last Batch Loss: 0.1992354542016983
+Epoch: 23 | Last Batch Loss: 0.19149917364120483
+Epoch: 24 | Last Batch Loss: 0.19333726167678833
+Epoch: 25 | Last Batch Loss: 0.19051463901996613
+Epoch: 26 | Last Batch Loss: 0.18997836112976074
+Epoch: 27 | Last Batch Loss: 0.195322185754776
+Training Volume: 264142
+Class Ratio for Training: 1.7673626753554255
+Testing Volume: 113204
+Class Ratio for Testing: 1.7673503312391523
+Epoch: 1 | Last Batch Loss: 0.19215437769889832
+Epoch: 2 | Last Batch Loss: 0.1858436018228531
+Epoch: 3 | Last Batch Loss: 0.19382351636886597
+Epoch: 4 | Last Batch Loss: 0.19431717693805695
+Epoch: 5 | Last Batch Loss: 0.18784548342227936
+Epoch: 6 | Last Batch Loss: 0.18900753557682037
+Epoch: 7 | Last Batch Loss: 0.18790799379348755
+Epoch: 8 | Last Batch Loss: 0.19435976445674896
+Epoch: 9 | Last Batch Loss: 0.19333381950855255
+Epoch: 10 | Last Batch Loss: 0.18828734755516052
+Epoch: 11 | Last Batch Loss: 0.19014893472194672
+Epoch: 12 | Last Batch Loss: 0.19411778450012207
+Epoch: 13 | Last Batch Loss: 0.18607845902442932
+Epoch: 14 | Last Batch Loss: 0.1854485273361206
+Epoch: 15 | Last Batch Loss: 0.19050364196300507
+Epoch: 16 | Last Batch Loss: 0.19150836765766144
+Epoch: 17 | Last Batch Loss: 0.18508976697921753
+Epoch: 18 | Last Batch Loss: 0.1941453218460083
+Epoch: 19 | Last Batch Loss: 0.19330327212810516
+Epoch: 20 | Last Batch Loss: 0.1964738667011261
+Epoch: 21 | Last Batch Loss: 0.18329408764839172
+Epoch: 22 | Last Batch Loss: 0.19265010952949524
+Epoch: 23 | Last Batch Loss: 0.19032539427280426
+Epoch: 24 | Last Batch Loss: 0.18889851868152618
+Epoch: 25 | Last Batch Loss: 0.1878591924905777
+Epoch: 26 | Last Batch Loss: 0.19159431755542755
+Epoch: 27 | Last Batch Loss: 0.19164295494556427
+Epoch: 28 | Last Batch Loss: 0.19366669654846191
+Training Volume: 264142
+Class Ratio for Training: 1.7673626753554255
+Testing Volume: 113204
+Class Ratio for Testing: 1.7673503312391523
+Epoch: 1 | Last Batch Loss: 0.1936998963356018
+Epoch: 2 | Last Batch Loss: 0.19293715059757233
+Epoch: 3 | Last Batch Loss: 0.18599991500377655
+Epoch: 4 | Last Batch Loss: 0.1920299530029297
+Epoch: 5 | Last Batch Loss: 0.190599724650383
+Epoch: 6 | Last Batch Loss: 0.18994182348251343
+Epoch: 7 | Last Batch Loss: 0.18643850088119507
+Epoch: 8 | Last Batch Loss: 0.19248540699481964
+Epoch: 9 | Last Batch Loss: 0.1897750049829483
+Epoch: 10 | Last Batch Loss: 0.1930583119392395
+Epoch: 11 | Last Batch Loss: 0.19188250601291656
+Epoch: 12 | Last Batch Loss: 0.18714973330497742
+Epoch: 13 | Last Batch Loss: 0.1843656748533249
+Epoch: 14 | Last Batch Loss: 0.1913478672504425
+Epoch: 15 | Last Batch Loss: 0.1892034262418747
+Epoch: 16 | Last Batch Loss: 0.18791563808918
+Epoch: 17 | Last Batch Loss: 0.1856926530599594
+Epoch: 18 | Last Batch Loss: 0.19292697310447693
+Epoch: 19 | Last Batch Loss: 0.18942265212535858
+Epoch: 20 | Last Batch Loss: 0.19267410039901733
+Epoch: 21 | Last Batch Loss: 0.18952015042304993
+Epoch: 22 | Last Batch Loss: 0.1884867250919342
+Epoch: 23 | Last Batch Loss: 0.18804596364498138
+Epoch: 24 | Last Batch Loss: 0.1864733248949051
+Epoch: 25 | Last Batch Loss: 0.1933010220527649
+Epoch: 26 | Last Batch Loss: 0.18539059162139893
+Epoch: 27 | Last Batch Loss: 0.18829478323459625
+Epoch: 28 | Last Batch Loss: 0.19064901769161224
+Epoch: 29 | Last Batch Loss: 0.19330915808677673
+Epoch: 30 | Last Batch Loss: 0.19206835329532623
+Epoch: 31 | Last Batch Loss: 0.19247601926326752
+Epoch: 32 | Last Batch Loss: 0.19007845222949982
+Epoch: 33 | Last Batch Loss: 0.18821047246456146
+Epoch: 34 | Last Batch Loss: 0.1846582591533661
+Epoch: 35 | Last Batch Loss: 0.19150736927986145
+Epoch: 36 | Last Batch Loss: 0.18676814436912537
+Epoch: 37 | Last Batch Loss: 0.18612432479858398
+Epoch: 38 | Last Batch Loss: 0.19124852120876312
+Epoch: 39 | Last Batch Loss: 0.1917518675327301
+Epoch: 40 | Last Batch Loss: 0.1859508454799652
+Epoch: 41 | Last Batch Loss: 0.1859132945537567
+Epoch: 42 | Last Batch Loss: 0.19078142940998077
+Epoch: 43 | Last Batch Loss: 0.19255538284778595
+Epoch: 44 | Last Batch Loss: 0.19307748973369598
+Epoch: 45 | Last Batch Loss: 0.18873673677444458
+Epoch: 46 | Last Batch Loss: 0.18567270040512085
+Epoch: 47 | Last Batch Loss: 0.18500611186027527
+Epoch: 48 | Last Batch Loss: 0.19000019133090973
+Epoch: 49 | Last Batch Loss: 0.19338133931159973
+Epoch: 50 | Last Batch Loss: 0.1923399567604065
+Epoch: 51 | Last Batch Loss: 0.1856231540441513
+Epoch: 52 | Last Batch Loss: 0.1896127164363861
+Epoch: 53 | Last Batch Loss: 0.19357049465179443
+Epoch: 54 | Last Batch Loss: 0.19000132381916046
+Epoch: 55 | Last Batch Loss: 0.19370625913143158
+Epoch: 56 | Last Batch Loss: 0.18787261843681335
+Epoch: 57 | Last Batch Loss: 0.1891530305147171
+Epoch: 58 | Last Batch Loss: 0.18885330855846405
+Epoch: 59 | Last Batch Loss: 0.18977943062782288
+Epoch: 60 | Last Batch Loss: 0.18872886896133423
+Epoch: 61 | Last Batch Loss: 0.1879381537437439
+Epoch: 62 | Last Batch Loss: 0.1912883073091507
+Epoch: 63 | Last Batch Loss: 0.19550539553165436
+Epoch: 64 | Last Batch Loss: 0.19054950773715973
+Epoch: 65 | Last Batch Loss: 0.19022487103939056
+Epoch: 66 | Last Batch Loss: 0.1881994903087616
+Epoch: 67 | Last Batch Loss: 0.19159498810768127
+Epoch: 68 | Last Batch Loss: 0.18628759682178497
+Epoch: 69 | Last Batch Loss: 0.18841184675693512
+Epoch: 70 | Last Batch Loss: 0.1908111572265625
+Epoch: 71 | Last Batch Loss: 0.1872587502002716
+Epoch: 72 | Last Batch Loss: 0.18525004386901855
+Epoch: 73 | Last Batch Loss: 0.1900615394115448
+Epoch: 74 | Last Batch Loss: 0.1910005509853363
+Epoch: 75 | Last Batch Loss: 0.1847119927406311
+Epoch: 76 | Last Batch Loss: 0.19102716445922852
+Epoch: 77 | Last Batch Loss: 0.18728403747081757
+Epoch: 78 | Last Batch Loss: 0.19117571413516998
+Epoch: 79 | Last Batch Loss: 0.18715451657772064
+Epoch: 80 | Last Batch Loss: 0.18949191272258759
+Epoch: 81 | Last Batch Loss: 0.18204966187477112
+Epoch: 82 | Last Batch Loss: 0.19244708120822906
+Epoch: 83 | Last Batch Loss: 0.1905457228422165
+Epoch: 84 | Last Batch Loss: 0.19256101548671722
+Epoch: 85 | Last Batch Loss: 0.1923455148935318
+Epoch: 86 | Last Batch Loss: 0.18657317757606506
+Epoch: 87 | Last Batch Loss: 0.18116973340511322
+Epoch: 88 | Last Batch Loss: 0.1868797242641449
+Epoch: 89 | Last Batch Loss: 0.1863788664340973
+Epoch: 90 | Last Batch Loss: 0.1858207732439041
+Epoch: 91 | Last Batch Loss: 0.18690238893032074
+Epoch: 92 | Last Batch Loss: 0.1874522566795349
+Epoch: 93 | Last Batch Loss: 0.18559665977954865
+Epoch: 94 | Last Batch Loss: 0.19391191005706787
+Epoch: 95 | Last Batch Loss: 0.1871892362833023
+Epoch: 96 | Last Batch Loss: 0.18761512637138367
+Epoch: 97 | Last Batch Loss: 0.18899790942668915
+Epoch: 98 | Last Batch Loss: 0.1921754628419876
+Epoch: 99 | Last Batch Loss: 0.1900421380996704
+Epoch: 100 | Last Batch Loss: 0.1882530003786087
+Classification Accuracy: 70.72
+Precision: 0.61
+Recall: 0.52
+F-1 Score: 0.56
+Parameter containing:
+tensor([[-4.1420e-01,  7.8213e-01,  1.0124e+00,  ...,  1.1564e-01,
+         -3.8945e-02,  2.9047e-02],
+        [-6.0454e-02, -2.7244e-02, -1.4309e-01,  ..., -1.6622e-01,
+          1.5975e-01, -3.2877e-03],
+        [ 6.4901e-02, -2.4454e+00, -6.8307e-01,  ..., -3.1455e-01,
+         -1.1810e+00,  2.8478e-01],
+        ...,
+        [ 1.5198e-01, -2.9687e+00,  2.1957e+00,  ...,  5.0613e-01,
+         -3.2667e-01, -8.2041e-01],
+        [ 1.6504e-01, -1.2190e-01, -1.6890e-01,  ...,  1.0241e-01,
+         -1.3324e-01,  1.2325e-01],
+        [ 7.4508e-02,  6.0503e-01, -4.1208e+00,  ..., -1.3245e-01,
+          2.2908e-01, -4.5181e-02]], device='cuda:0', requires_grad=True)
